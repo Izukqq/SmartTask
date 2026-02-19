@@ -9,12 +9,10 @@ public class TareaNormal extends Tarea {
 
     @Override
     public String toString() {
-        return "TareaNormal { " +
-                "id= " + this.getId() +
-                ", nombre= '" + this.getNombre() + '\'' +
-                ", prioridad= " + this.getPrioridad() +
-                ", completada= '" + (this.getCompletada() ? "Sí" : "No") + '\'' +
-                '}';
+        return "TareaNormal  | " +
+                "Id: " + this.getId() +
+                ", Nombre: " + this.getNombre() + 
+                ", Prioridad: " + this.getPrioridad() +
+                ", Completada: " + (this.getCompletada() ? "Sí" : "No") + " | ";
     }
-
 }

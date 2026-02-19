@@ -18,7 +18,6 @@ public class SmartTask {
             System.out.println("Seleccione una opción: ");
 
             try {
-                System.out.print("Ingrese su opción: ");
                 opcion = scanner.nextInt();
                 scanner.nextLine();
 
