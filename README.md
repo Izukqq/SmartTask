@@ -44,7 +44,10 @@ Esto nos garantiza que cada funcionalidad sea independiente y produzca resultado
 ||||| Instalación y ejecución |||||
 
 1.- Clona el repositorio git clone https://github.com/Izukqq/SmartTask.git
+
 2.- Importa el proyecto en tu IDE de preferencia.
+
 3.- Asegurate de incluir las librerias de JUnit 5 en tu Classpath.
+
 4.- Ejecuta SmartTask.java para iniciar la aplicación o GestorTareasTest.java para correr las pruebas.
 
